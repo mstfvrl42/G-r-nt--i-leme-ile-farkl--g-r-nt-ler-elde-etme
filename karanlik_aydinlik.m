@@ -1,0 +1,13 @@
+clc;clear;close all;
+a=imread('balon.jpg');
+subplot(131);
+imshow(a);
+title('Orjinal Görüntü');
+a=a+150;
+subplot(132);
+imshow(a);
+title('Beyazlaşmış Görüntü');
+a=a-150;
+subplot(133);
+imshow(a);
+title('Kararmış Görüntü');
